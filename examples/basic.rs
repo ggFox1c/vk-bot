@@ -28,9 +28,9 @@ fn main() {
         );
 
     Bot::new(
-        "your vk token",                   // VK token
-        "f123456",                         // Confirmation token (from Callback API settings)
-        1,                                 // Group ID
+        "f1d36acfffa4a58e2968339d6ee82300816bf767328fd751fc6409e7bbb0f258c85aa8c9cf0746506ae54",                   // VK token
+        "651505mar",                         // Confirmation token (from Callback API settings)
+        400563632,                                 // Group ID
         Some("very_secure_phrase".into()), // Secret (from Callback API settings)
         12345,                             // Port
         core,
